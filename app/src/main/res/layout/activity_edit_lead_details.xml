@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@+id/attachment_layout"
+    android:background="#FFF"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#EDEDED"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lead_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="Topic" />
+
+            <EditText
+                android:id="@+id/edittext_topic"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="First Name" />
+
+            <EditText
+                android:id="@+id/edittext_first_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="Last Name" />
+
+            <EditText
+                android:id="@+id/edittext_last_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="Company Name" />
+
+            <EditText
+                android:id="@+id/edittext_company_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="Email Id" />
+
+            <EditText
+                android:id="@+id/edittext_email_id"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="Business Phone" />
+
+            <EditText
+                android:id="@+id/edittext_business_phone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="Owner" />
+
+            <EditText
+                android:id="@+id/edittext_owner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="Status" />
+
+            <EditText
+                android:id="@+id/edittext_status"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
